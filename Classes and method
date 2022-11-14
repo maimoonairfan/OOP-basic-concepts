@@ -1,0 +1,21 @@
+void main(){
+Student student1 = Student();
+student1.name = 'Jack';
+student1.age =  19;
+student1.result();
+student1.pass();
+student1.other();
+}
+class Student{
+  String name = '';
+  int age = 14;
+  result(){
+    print('$name has scored good marks');
+  }
+  pass(){
+    print('$age above has scored low marks');
+  }
+  other(){
+    print('Failed in exams');
+  }
+}
